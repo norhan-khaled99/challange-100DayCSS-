@@ -1,0 +1,28 @@
+.frame {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    background: #404556;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bulb{
+    margin-top: 5px;
+    fill: #FFF35C;
+    cursor: pointer;
+    transition: all 1s ease-in-out;  
+    &:hover {
+		fill: #8C8F99;
+	}
+}
+
+#base{
+    margin-top: 15px;
+    fill: #FFF;
+}
